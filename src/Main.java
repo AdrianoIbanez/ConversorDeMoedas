@@ -4,8 +4,6 @@ import java.net.http.HttpRequest;
 public class Main {
     public static void main(String[] args) {
 
-
-
        //menu inicial
         System.out.println("********************************************");
         System.out.println("Seja bem-vindo ao Conversor de Moedas!");
