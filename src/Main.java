@@ -11,12 +11,6 @@ public class Main {
         System.out.println("Digite a moeda base: ");
         String moedas = leitura.nextLine();
 
-        try {
-            String resposta = api.chamarApi(moedas);
-            System.out.println("Resposta da API:");
-            System.out.println(resposta);
-        } catch (IOException | InterruptedException e) {
-            System.out.println("Ocorreu um erro ao chamar a API: " + e.getMessage());
 
 
             //menu inicial
@@ -36,4 +30,3 @@ public class Main {
             System.out.println("0 - Dólar americano>> Real brasileiro");*/
         }
     }
-}
