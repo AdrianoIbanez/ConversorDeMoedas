@@ -5,14 +5,98 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+
+        Menu menu = new Menu();
+        menu.menuMoedas();
+
         Scanner leitura = new Scanner(System.in);
         API api = new API();
 
-        System.out.println("Digite a moeda base: ");
-        String moedas = leitura.nextLine();
+        Referencias referencias = new Referencias();
 
+        boolean opcValida = false;
+        while (!opcValida){
+            int opc1 = leitura.nextInt();
+            if (opc1 >1 && opc1 <6){
+                switch (opc1){
+                    case 1:
+                        referencias.setConvercaoDe("ARS");
+                        break;
 
+                    case 2:
+                        referencias.setConvercaoDe("BOB");
+                        break;
 
+                    case 3:
+                        referencias.setConvercaoDe("BRL");
+                        break;
+
+                    case 4:
+                        referencias.setConvercaoDe("CLP");
+                        break;
+
+                    case 5:
+                        referencias.setConvercaoDe("COP");
+                        break;
+
+                    case 6:
+                        referencias.setConvercaoDe("USD");
+                        break;
+
+                    default:
+                        System.out.println("Escolha entre 1 a 6");
+                        break;
+                }
+                opcValida = true;
+            } else {
+                System.out.println("Opção invalida! Digite um número de 1 a 6!");
+            }
+        }
+        System.out.println("Moeda selecionada: " + referencias.getConvercaoDe());
+        System.out.println("Escolha para qual moeda será convertida");
+        menu.menuMoedas();
+
+        opcValida = false;
+
+        while (!opcValida){
+            int opc2 = leitura.nextInt();
+            if (opc2 >1 && opc2 <6){
+                switch (opc2){
+                    case 1:
+                        referencias.setConvercaoDe("ARS");
+                        break;
+
+                    case 2:
+                        referencias.setConvercaoDe("BOB");
+                        break;
+
+                    case 3:
+                        referencias.setConvercaoDe("BRL");
+                        break;
+
+                    case 4:
+                        referencias.setConvercaoDe("CLP");
+                        break;
+
+                    case 5:
+                        referencias.setConvercaoDe("COP");
+                        break;
+
+                    case 6:
+                        referencias.setConvercaoDe("USD");
+                        break;
+
+                    default:
+                        System.out.println("Escolha entre 1 a 6");
+                        break;
+                }
+                opcValida = true;
+            } else {
+                System.out.println("Opção invalida! Digite um número de 1 a 6!");
+            }
+        }
+
+        System.out.println();
             //menu inicial
           /*  System.out.println("********************************************");
             System.out.println("Seja bem-vindo ao Conversor de Moedas!");
