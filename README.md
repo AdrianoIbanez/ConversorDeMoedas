@@ -7,9 +7,10 @@ utilizando a taxa de câmbio vigente.
 
 O programa pode ser executado de duas maneiras:
 
-Por uma IDE específica para Java: durante o desenvolvimento, foi utilizada a IDE IntelliJ. Para executá-lo, 
-basta utilizar a opção "Run". 
-Via prompt de comando: também é possível compilar e executar o programa diretamente no terminal.
+1- Por uma IDE específica para Java: durante o desenvolvimento, foi utilizada a IDE IntelliJ. Para executá-lo, 
+basta utilizar a opção "Run".
+
+2 - Via prompt de comando: também é possível compilar e executar o programa diretamente no terminal.
 
 Manual de Utilização
 
