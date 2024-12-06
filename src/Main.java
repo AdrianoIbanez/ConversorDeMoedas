@@ -64,27 +64,27 @@ public class Main {
             if (opc2 >=1 && opc2 <=6){
                 switch (opc2){
                     case 1:
-                        referencias.setConversaoDe("ARS");
+                        referencias.setConversaoPara("ARS");
                         break;
 
                     case 2:
-                        referencias.setConversaoDe("BOB");
+                        referencias.setConversaoPara("BOB");
                         break;
 
                     case 3:
-                        referencias.setConversaoDe("BRL");
+                        referencias.setConversaoPara("BRL");
                         break;
 
                     case 4:
-                        referencias.setConversaoDe("CLP");
+                        referencias.setConversaoPara("CLP");
                         break;
 
                     case 5:
-                        referencias.setConversaoDe("COP");
+                        referencias.setConversaoPara("COP");
                         break;
 
                     case 6:
-                        referencias.setConversaoDe("USD");
+                        referencias.setConversaoPara("USD");
                         break;
 
                     default:

@@ -4,13 +4,13 @@ public class Conversao {
     @SerializedName("base_code")
     private String moedaEscolhida;
 
-    @SerializedName("Conversion_result")
+    @SerializedName("conversion_result")
     private Double resultadoDaConversao;
 
-    @SerializedName("Target_code")
+    @SerializedName("target_code")
     private String moedaParaConverter;
 
-    @SerializedName("Conversion_rate")
+    @SerializedName("conversion_rate")
     private Double taxaParaConversao;
 
     public Conversao(String moedaEscolhida, Double resultadoDaConvercao,
