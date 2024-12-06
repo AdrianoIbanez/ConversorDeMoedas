@@ -1,29 +1,30 @@
 public class Referencias {
-    private String convercaoDe;
-    private String convercaoPara;
+    private String conversaoDe;
+    private String conversaoPara;
     private double valor;
 
-    public String getConvercaoDe() {
-        return convercaoDe;
+    public String getConversaoDe() {
+        return conversaoDe;
     }
 
-    public void setConvercaoDe(String convercaoDe) {
-        this.convercaoDe = convercaoDe;
+    public void setConversaoDe(String conversaoDe) {
+        this.conversaoDe = conversaoDe;
     }
 
-    public String getConvercaoPara() {
-        return convercaoPara;
+    public String getConversaoPara() {
+        return conversaoPara;
     }
 
-    public void setConvercaoPara(String convercaoPara) {
-        this.convercaoPara = convercaoPara;
+    public void setConversaoPara(String conversaoPara) {
+        this.conversaoPara = conversaoPara;
     }
 
     public double getValor() {
         return valor;
     }
 
-    public void setValor(String valor) {
-        this.valor = Double.parseDouble(valor);
+    public void setValor(double valor) {
+        this.valor = valor;
     }
+
 }
