@@ -37,7 +37,6 @@ public class Conversao {
     }
 
 
-
     @Override
     public String toString() {
         return "O valor de " + String.format("%.2f", valorDigitado()) + " " + moedaEscolhida +

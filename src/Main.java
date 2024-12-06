@@ -18,7 +18,7 @@ public class Main {
         boolean opcValida = false;
         while (!opcValida){
             int opc1 = leitura.nextInt();
-            if (opc1 >0 && opc1 <7){
+            if (opc1 >=1 && opc1 <=6){
                 switch (opc1){
                     case 1:
                         referencias.setConversaoDe("ARS");
@@ -61,7 +61,7 @@ public class Main {
 
         while (!opcValida){
             int opc2 = leitura.nextInt();
-            if (opc2 >0 && opc2 <7){
+            if (opc2 >=1 && opc2 <=6){
                 switch (opc2){
                     case 1:
                         referencias.setConversaoDe("ARS");
